@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:100,200,300,400,500,600,700,800,900');
+body{
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	background: #000;
+}
+h2{
+	overflow: hidden;
+	position: relative;
+	font: 4em;
+	color: #fff;
+
+}
+h2:before{
+	content: '';
+	position: absolute;
+	left: 120%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent 0%, #000 5%,  #000 100%);
+	animation: animate 10s linear forwards;
+}
+@keyframes animate{
+	0%{
+		left: -20;
+
+	}
+	50%{
+		left: -20;
+		
+	}
+	0%{
+		left: -20;
+
+		
+		
+	}
+}
